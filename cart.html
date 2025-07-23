@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - Maker's Magic</title>
+    <link rel="stylesheet" href="css/cart.css">
+    <script defer src="js/cart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Handicraft</div>
+            <nav>
+                <a href="homepage.html">Shop</a>
+                <a href="#">Pages</a>
+                <a href="#">Features</a>
+                <a href="#">Elements</a>
+                <a href="#">Blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="cart-container">
+        <div class="cart-header">
+            <h1>Your Shopping Cart</h1>
+            <div class="cart-actions">
+                <button class="select-all">
+                    <input type="checkbox" id="select-all"> Select All
+                </button>
+                <button class="delete-selected">Delete Selected</button>
+            </div>
+        </div>
+
+        <div class="cart-content">
+            <div class="cart-items" id="cart-container">
+                <!-- Cart items will be populated here -->
+            </div>
+
+            <div class="cart-summary">
+                <div class="summary-header">
+                    <h2>Order Summary</h2>
+                </div>
+                <div class="summary-content">
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span id="subtotal">$0.00</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Shipping Fee</span>
+                        <span id="shipping">$0.00</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Tax</span>
+                        <span id="tax">$0.00</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total</span>
+                        <span id="total">$0.00</span>
+                    </div>
+                </div>
+                <button type="submit" class="checkout-button" form="cart-form">
+                    Checkout
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <form id="cart-form" style="display: none;"></form>
+
+    <footer>
+        <p>&copy; 2025 Maker's Magic. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Maker's Magic</title>
+    <link rel="stylesheet" href="css/checkout.css">
+    <script defer src="js/checkout.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Handicraft</div>
+            <nav>
+                <a href="homepage.html">Shop</a>
+                <a href="#">Pages</a>
+                <a href="#">Features</a>
+                <a href="#">Elements</a>
+                <a href="#">Blog</a>
+            </nav>          
+        </div>
+    </header>
+
+    <main class="checkout-container">
+        <div class="checkout-main">
+            <!-- Checkout Steps -->
+            <div class="checkout-steps">
+                <div class="steps-header">
+                    <h2>Checkout</h2>
+                </div>
+                <div class="steps-progress">
+                    <div class="step completed">1</div>
+                    <div class="step active">2</div>
+                    <div class="step">3</div>
+                </div>
+            </div>
+
+            <!-- Delivery Information -->
+            <div class="delivery-info">
+                <div class="delivery-header">
+                    <h3>Delivery Information</h3>
+                </div>
+                <form class="delivery-form" id="delivery-form">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Delivery Address</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="postal_code">Postal Code</label>
+                        <input type="text" id="postal_code" name="postal_code" required>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" id="save-address" class="save-address-btn">Save as Default Address</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Payment Methods -->
+            <div class="payment-methods">
+                <div class="payment-header">
+                    <h3>Payment Method</h3>
+                </div>
+                <div class="payment-options">
+                    <label class="payment-option" id="cod">
+                        <input type="radio" name="payment" value="cod" required>
+                        <img src="images/cod.png" alt="Cash on Delivery">
+                        <span>Cash on Delivery</span>
+                    </label>
+                    <label class="payment-option" id="gcash">
+                        <input type="radio" name="payment" value="gcash">
+                        <img src="images/gcash.png" alt="GCash">
+                        <span>GCash</span>
+                    </label>
+                    <label class="payment-option" id="card">
+                        <input type="radio" name="payment" value="card">
+                        <img src="images/card.png" alt="Credit/Debit Card">
+                        <span>Credit/Debit Card</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Order Summary -->
+        <div class="order-summary">
+            <div class="summary-header">
+                <h2>Order Summary</h2>
+            </div>
+            <div class="summary-items" id="checkout-items">
+                <!-- Items will be populated by JavaScript -->
+            </div>
+            <div class="summary-totals">
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span id="subtotal">$0.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>Shipping Fee</span>
+                    <span id="shipping">$0.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>Tax</span>
+                    <span id="tax">$0.00</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total</span>
+                    <span id="total">$0.00</span>
+                </div>
+            </div>
+            <button type="submit" class="place-order-button" form="checkout-form">
+                Place Order
+            </button>
+        </div>
+    </main>
+
+    <form id="checkout-form" style="display: none;"></form>
+
+    <!-- Loading Overlay -->
+    <div class="loading" style="display: none;">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Maker's Magic. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

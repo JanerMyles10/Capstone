@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0faff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #cce5ff;
+  border: 2px solid #3399ff;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}

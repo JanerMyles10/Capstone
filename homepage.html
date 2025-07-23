@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/homepage.css">
+    <script defer src="js/main.js"></script>
+    <title>Makers Magic Marketplace</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Handicraft</div>
+            <nav>
+                <a href="homepage.html">Shop</a>
+                <a href="pages.html">Pages</a>
+                <a href="features.html">Features</a>
+                <a href="elements.html">Elements</a>
+                <a href="blog.html">Blog</a>
+                <a href="artisandashboard.html">Artisans</a>
+            </nav>
+            <div class="account-info">
+                <a href="cart.html" class="cart-link">
+                    <span>🛒</span> Cart
+                    <span id="cart-count" class="cart-count">0</span>
+                </a>
+                <div class="profile-dropdown">
+                    <button class="profile-button">Me</button>
+                    <div class="profile-content">
+                        <div class="section-title">My Purchases</div>
+                        <a href="#">To Pay</a>
+                        <a href="#">To Ship</a>
+                        <a href="#">To Receive</a>
+                        <a href="#">To Rate</a>
+                    </div>
+                </div>
+                <div class="settings-dropdown">
+                    <button class="settings-button">Settings</button>
+                    <div class="settings-content">
+                        <a href="php/profile.php">My Information</a>
+                        <a href="php/logout.php" class="logout-button">Logout</a>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <div class="shop-header">
+            <h1>Shop</h1>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search for handicrafts...">
+                <button id="search-button">Search</button>
+            </div>            
+        </div>                
+    </header>
+
+    <main>
+        <div class="filters">
+            <button>All</button>
+            <button>Women</button>
+            <button>Accessories</button>
+            <button>Gadgets</button>
+            <button>Editorials</button>
+            <span>Showing 1 of 5 products</span>
+            <button>Filters</button>
+            <select>
+                <option>Sort by newest</option>
+            </select>
+        </div>
+        <div class="product-grid">
+            <div class="product">
+                <a href="product-details.html?id=vase">
+                    <img src="images/vase.jpg" alt="Product 1">
+                </a>
+                <h2>Vase</h2>
+                <p>$295.00</p>
+                <div class="ratings">Rating: 5.0</div>
+                <button class="add-to-cart" data-id="vase" data-name="Vase" data-price="$295.00" data-image="images/vase.jpg">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <a href="product-details.html?id=bamboo">
+                    <img src="images/bamboo.jpg" alt="Product 2">
+                </a>
+                <h2>Bamboo Handicraft</h2>
+                <p>$295.00</p>
+                <div class="ratings">Rating: 5.0</div>
+                <button class="add-to-cart" data-id="bamboo" data-name="Bamboo Handicraft" data-price="$295.00" data-image="images/bamboo.jpg">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <a href="product-details.html?id=weaving">
+                    <img src="images/weaving.jpg" alt="Product 3">
+                </a>
+                <h2>Weaving Bag</h2>
+                <p>$295.00</p>
+                <div class="ratings">Rating: 5.0</div>
+                <button class="add-to-cart" data-id="weaving" data-name="Weaving Bag" data-price="$295.00" data-image="images/weaving.jpg">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <a href="product-details.html?id=woodplate">
+                    <img src="images/woodplate.jpg" alt="Product 4">
+                </a>
+                <h2>Wood Carved Plate</h2>
+                <p>$295.00</p>
+                <div class="ratings">Rating: 5.0</div>
+                <button class="add-to-cart" data-id="woodplate" data-name="Wood Carved Plate" data-price="$295.00" data-image="images/woodplate.jpg">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <a href="product-details.html?id=embroid">
+                    <img src="images/embroid.jpg" alt="Product 5">
+                </a>
+                <h2>Embroidered Wallet</h2>
+                <p>$295.00</p>
+                <div class="ratings">Rating: 5.0</div>
+                <button class="add-to-cart" data-id="embroid" data-name="Embroidered Wallet" data-price="$295.00" data-image="images/embroid.jpg">Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Maker's Magic. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

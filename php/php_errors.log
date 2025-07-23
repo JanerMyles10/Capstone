@@ -1,0 +1,3365 @@
+[08-May-2025 08:06:31 Europe/Berlin] Received order request: {"username":"mark","number":"09162353906","email":"mark@gmail.com","address":"122 G Spolarium St. Duljo Fatima","city":"Manila","postal":"1000","payment_method":"cod","items":[{"name":"Wood Carved Plate","quantity":1,"price":"$295.00","image":"images/woodplate.jpg"},{"name":"Vase","quantity":1,"price":"$295.00","image":"images/vase.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:06:31.686Z"}
+[08-May-2025 08:06:31 Europe/Berlin] Decoded data: Array
+(
+    [username] => mark
+    [number] => 09162353906
+    [email] => mark@gmail.com
+    [address] => 122 G Spolarium St. Duljo Fatima
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:06:31.686Z
+)
+
+[08-May-2025 08:06:31 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:83
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(83): mysqli_stmt->bind_param('isssssssddddds', 4, 'mark', 'mark@gmail.com', '09162353906', '122 G Spolarium...', 'Manila', '1000', 'cod', 590, 5, 70.8, 665.8, '2025-05-08T06:0...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 83
+[08-May-2025 08:07:48 Europe/Berlin] Session data: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[08-May-2025 08:07:48 Europe/Berlin] Received JSON: {"username":"mark","number":"09162353906","email":"mark@gmail.com","address":"122 G Spolarium St. Duljo Fatima","city":"Manila","postal":"1000","payment_method":"cod","items":[{"name":"Wood Carved Plate","quantity":1,"price":"$295.00","image":"images/woodplate.jpg"},{"name":"Vase","quantity":1,"price":"$295.00","image":"images/vase.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:07:48.437Z"}
+[08-May-2025 08:07:48 Europe/Berlin] Decoded data: Array
+(
+    [username] => mark
+    [number] => 09162353906
+    [email] => mark@gmail.com
+    [address] => 122 G Spolarium St. Duljo Fatima
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:07:48.437Z
+)
+
+[08-May-2025 08:07:48 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:85
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(85): mysqli_stmt->bind_param('isssssssddddds', 4, 'mark', 'mark@gmail.com', '09162353906', '122 G Spolarium...', 'Manila', '1000', 'cod', 590, 5, 70.8, 665.8, '2025-05-08T06:0...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 85
+[08-May-2025 08:09:30 Europe/Berlin] Session data: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[08-May-2025 08:09:30 Europe/Berlin] Received JSON: {"username":"mark","number":"09162353906","email":"mark@gmail.com","address":"122 G Spolarium St. Duljo Fatima","city":"Manila","postal":"1000","payment_method":"cod","items":[{"name":"Wood Carved Plate","quantity":1,"price":"$295.00","image":"images/woodplate.jpg"},{"name":"Vase","quantity":1,"price":"$295.00","image":"images/vase.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:09:30.240Z"}
+[08-May-2025 08:09:30 Europe/Berlin] Decoded data: Array
+(
+    [username] => mark
+    [number] => 09162353906
+    [email] => mark@gmail.com
+    [address] => 122 G Spolarium St. Duljo Fatima
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:09:30.240Z
+)
+
+[08-May-2025 08:09:30 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:85
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(85): mysqli_stmt->bind_param('isssssssddddds', 4, 'mark', 'mark@gmail.com', '09162353906', '122 G Spolarium...', 'Manila', '1000', 'cod', 590, 5, 70.8, 665.8, '2025-05-08T06:0...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 85
+[08-May-2025 08:10:19 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[08-May-2025 08:10:19 Europe/Berlin] Received JSON: {"username":"mark","number":"09162353906","email":"mark@gmail.com","address":"122 G Spolarium St. Duljo Fatima","city":"Manila","postal":"1000","payment_method":"cod","items":[{"name":"Wood Carved Plate","quantity":1,"price":"$295.00","image":"images/woodplate.jpg"},{"name":"Vase","quantity":1,"price":"$295.00","image":"images/vase.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:10:19.547Z"}
+[08-May-2025 08:10:19 Europe/Berlin] Decoded data: Array
+(
+    [username] => mark
+    [number] => 09162353906
+    [email] => mark@gmail.com
+    [address] => 122 G Spolarium St. Duljo Fatima
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:10:19.547Z
+)
+
+[08-May-2025 08:10:19 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:109
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(109): mysqli_stmt->bind_param('isssssssddddds', 4, 'mark', 'mark@gmail.com', '09162353906', '122 G Spolarium...', 'Manila', '1000', 'cod', 590, 5, 70.8, 665.8, '2025-05-08T06:1...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 109
+[08-May-2025 08:10:23 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[08-May-2025 08:10:23 Europe/Berlin] Received JSON: {"username":"mark","number":"09162353906","email":"mark@gmail.com","address":"122 G Spolarium St. Duljo Fatima","city":"Manila","postal":"1000","payment_method":"gcash","items":[{"name":"Wood Carved Plate","quantity":1,"price":"$295.00","image":"images/woodplate.jpg"},{"name":"Vase","quantity":1,"price":"$295.00","image":"images/vase.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:10:23.488Z"}
+[08-May-2025 08:10:23 Europe/Berlin] Decoded data: Array
+(
+    [username] => mark
+    [number] => 09162353906
+    [email] => mark@gmail.com
+    [address] => 122 G Spolarium St. Duljo Fatima
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => gcash
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:10:23.488Z
+)
+
+[08-May-2025 08:10:23 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:109
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(109): mysqli_stmt->bind_param('isssssssddddds', 4, 'mark', 'mark@gmail.com', '09162353906', '122 G Spolarium...', 'Manila', '1000', 'gcash', 590, 5, 70.8, 665.8, '2025-05-08T06:1...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 109
+[08-May-2025 08:10:27 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[08-May-2025 08:10:27 Europe/Berlin] Received JSON: {"username":"mark","number":"09162353906","email":"mark@gmail.com","address":"122 G Spolarium St. Duljo Fatima","city":"Manila","postal":"1000","payment_method":"card","items":[{"name":"Wood Carved Plate","quantity":1,"price":"$295.00","image":"images/woodplate.jpg"},{"name":"Vase","quantity":1,"price":"$295.00","image":"images/vase.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:10:27.430Z"}
+[08-May-2025 08:10:27 Europe/Berlin] Decoded data: Array
+(
+    [username] => mark
+    [number] => 09162353906
+    [email] => mark@gmail.com
+    [address] => 122 G Spolarium St. Duljo Fatima
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => card
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:10:27.430Z
+)
+
+[08-May-2025 08:10:27 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:109
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(109): mysqli_stmt->bind_param('isssssssddddds', 4, 'mark', 'mark@gmail.com', '09162353906', '122 G Spolarium...', 'Manila', '1000', 'card', 590, 5, 70.8, 665.8, '2025-05-08T06:1...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 109
+[08-May-2025 08:10:35 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[08-May-2025 08:10:35 Europe/Berlin] Received JSON: {"username":"mark","number":"09162353906","email":"mark@gmail.com","address":"122 G Spolarium St. Duljo Fatima","city":"Manila","postal":"1000","payment_method":"card","items":[{"name":"Wood Carved Plate","quantity":1,"price":"$295.00","image":"images/woodplate.jpg"},{"name":"Vase","quantity":1,"price":"$295.00","image":"images/vase.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:10:35.600Z"}
+[08-May-2025 08:10:35 Europe/Berlin] Decoded data: Array
+(
+    [username] => mark
+    [number] => 09162353906
+    [email] => mark@gmail.com
+    [address] => 122 G Spolarium St. Duljo Fatima
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => card
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:10:35.600Z
+)
+
+[08-May-2025 08:10:35 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:109
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(109): mysqli_stmt->bind_param('isssssssddddds', 4, 'mark', 'mark@gmail.com', '09162353906', '122 G Spolarium...', 'Manila', '1000', 'card', 590, 5, 70.8, 665.8, '2025-05-08T06:1...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 109
+[08-May-2025 08:11:58 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[08-May-2025 08:11:58 Europe/Berlin] Received JSON: {"username":"mark","number":"09162353906","email":"mark@gmail.com","address":"122 G Spolarium St. Duljo Fatima","city":"Manila","postal":"1000","payment_method":"cod","items":[{"name":"Wood Carved Plate","quantity":1,"price":"$295.00","image":"images/woodplate.jpg"},{"name":"Vase","quantity":1,"price":"$295.00","image":"images/vase.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:11:58.313Z"}
+[08-May-2025 08:11:58 Europe/Berlin] Decoded data: Array
+(
+    [username] => mark
+    [number] => 09162353906
+    [email] => mark@gmail.com
+    [address] => 122 G Spolarium St. Duljo Fatima
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:11:58.313Z
+)
+
+[08-May-2025 08:11:58 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:109
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(109): mysqli_stmt->bind_param('isssssssddddds', 4, 'mark', 'mark@gmail.com', '09162353906', '122 G Spolarium...', 'Manila', '1000', 'cod', 590, 5, 70.8, 665.8, '2025-05-08T06:1...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 109
+[08-May-2025 08:16:13 Europe/Berlin] === New Order Request ===
+[08-May-2025 08:16:13 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[08-May-2025 08:16:13 Europe/Berlin] Raw JSON received: {"username":"mark","number":"09162353906","email":"mark@gmail.com","address":"122 G Spolarium St. Duljo Fatima","city":"Manila","postal":"1000","payment_method":"cod","items":[{"name":"Wood Carved Plate","quantity":1,"price":"$295.00","image":"images/woodplate.jpg"},{"name":"Vase","quantity":1,"price":"$295.00","image":"images/vase.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:16:13.631Z"}
+[08-May-2025 08:16:13 Europe/Berlin] Decoded data: Array
+(
+    [username] => mark
+    [number] => 09162353906
+    [email] => mark@gmail.com
+    [address] => 122 G Spolarium St. Duljo Fatima
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:16:13.631Z
+)
+
+[08-May-2025 08:16:13 Europe/Berlin] Starting database transaction
+[08-May-2025 08:16:13 Europe/Berlin] Binding order parameters
+[08-May-2025 08:16:13 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:120
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(120): mysqli_stmt->bind_param('isssssssddddds', 4, 'mark', 'mark@gmail.com', '09162353906', '122 G Spolarium...', 'Manila', '1000', 'cod', 590, 5, 70.8, 665.8, '2025-05-08T06:1...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 120
+[08-May-2025 08:17:24 Europe/Berlin] === New Order Request ===
+[08-May-2025 08:17:24 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[08-May-2025 08:17:24 Europe/Berlin] Raw JSON received: {"username":"mark","number":"09162353906","email":"mark@gmail.com","address":"122 G Spolarium St. Duljo Fatima","city":"Manila","postal":"1000","payment_method":"cod","items":[{"name":"Wood Carved Plate","quantity":1,"price":"$295.00","image":"images/woodplate.jpg"},{"name":"Embroidered Wallet","quantity":1,"price":"$295.00","image":"images/embroid.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:17:24.277Z"}
+[08-May-2025 08:17:24 Europe/Berlin] Decoded data: Array
+(
+    [username] => mark
+    [number] => 09162353906
+    [email] => mark@gmail.com
+    [address] => 122 G Spolarium St. Duljo Fatima
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Embroidered Wallet
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/embroid.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:17:24.277Z
+)
+
+[08-May-2025 08:17:24 Europe/Berlin] Starting database transaction
+[08-May-2025 08:17:24 Europe/Berlin] Binding order parameters
+[08-May-2025 08:17:24 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:120
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(120): mysqli_stmt->bind_param('isssssssddddds', 4, 'mark', 'mark@gmail.com', '09162353906', '122 G Spolarium...', 'Manila', '1000', 'cod', 590, 5, 70.8, 665.8, '2025-05-08T06:1...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 120
+[08-May-2025 08:22:05 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[08-May-2025 08:22:05 Europe/Berlin] User is logged in with ID: 4
+[08-May-2025 08:22:05 Europe/Berlin] === New Order Request ===
+[08-May-2025 08:22:05 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[08-May-2025 08:22:05 Europe/Berlin] Raw JSON received: {"username":"mark","number":"09162353906","email":"mark@gmail.com","address":"122 G Spolarium St. Duljo Fatima","city":"Manila","postal":"1000","payment_method":"cod","items":[{"name":"Wood Carved Plate","quantity":1,"price":"$295.00","image":"images/woodplate.jpg"},{"name":"Weaving Bag","quantity":1,"price":"$295.00","image":"images/weaving.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:22:05.677Z"}
+[08-May-2025 08:22:05 Europe/Berlin] Decoded data: Array
+(
+    [username] => mark
+    [number] => 09162353906
+    [email] => mark@gmail.com
+    [address] => 122 G Spolarium St. Duljo Fatima
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Weaving Bag
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/weaving.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:22:05.677Z
+)
+
+[08-May-2025 08:22:05 Europe/Berlin] Starting database transaction
+[08-May-2025 08:22:05 Europe/Berlin] Binding order parameters
+[08-May-2025 08:22:05 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:120
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(120): mysqli_stmt->bind_param('isssssssddddds', 4, 'mark', 'mark@gmail.com', '09162353906', '122 G Spolarium...', 'Manila', '1000', 'cod', 590, 5, 70.8, 665.8, '2025-05-08T06:2...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 120
+[08-May-2025 08:29:01 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[08-May-2025 08:29:01 Europe/Berlin] User is logged in with ID: 4
+[08-May-2025 08:29:08 Europe/Berlin] === New Order Request ===
+[08-May-2025 08:29:08 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[08-May-2025 08:29:08 Europe/Berlin] Raw JSON received: {"username":"mark","number":"09162353906","email":"mark@gmail.com","address":"122 G Spolarium St. Duljo Fatima","city":"Manila","postal":"1000","payment_method":"cod","items":[{"name":"Vase","quantity":1,"price":"$295.00","image":"images/vase.jpg"},{"name":"Embroidered Wallet","quantity":1,"price":"$295.00","image":"images/embroid.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:29:08.058Z"}
+[08-May-2025 08:29:08 Europe/Berlin] Decoded data: Array
+(
+    [username] => mark
+    [number] => 09162353906
+    [email] => mark@gmail.com
+    [address] => 122 G Spolarium St. Duljo Fatima
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Embroidered Wallet
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/embroid.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:29:08.058Z
+)
+
+[08-May-2025 08:29:08 Europe/Berlin] Starting database transaction
+[08-May-2025 08:29:08 Europe/Berlin] Binding order parameters
+[08-May-2025 08:29:08 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:120
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(120): mysqli_stmt->bind_param('isssssssddddds', 4, 'mark', 'mark@gmail.com', '09162353906', '122 G Spolarium...', 'Manila', '1000', 'cod', 590, 5, 70.8, 665.8, '2025-05-08T06:2...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 120
+[08-May-2025 08:31:35 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 08:31:35 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 08:32:05 Europe/Berlin] === New Order Request ===
+[08-May-2025 08:32:05 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 08:32:05 Europe/Berlin] Raw JSON received: {"username":"akosiandre","number":"09162352906","email":"akosi@gmail.com","address":"Duljo Fatima, Cebu City","city":"Manila","postal":"1000","payment_method":"cod","items":[{"id":"weaving","name":"Weaving Bag","quantity":2,"price":"$295.00","image":"images/weaving.jpg"},{"id":"bamboo","name":"Bamboo Handicraft","quantity":1,"price":"$295.00","image":"images/bamboo.jpg"}],"subtotal":885,"shipping":5,"tax":106.2,"total":996.2,"order_date":"2025-05-08T06:32:05.493Z"}
+[08-May-2025 08:32:05 Europe/Berlin] Decoded data: Array
+(
+    [username] => akosiandre
+    [number] => 09162352906
+    [email] => akosi@gmail.com
+    [address] => Duljo Fatima, Cebu City
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => weaving
+                    [name] => Weaving Bag
+                    [quantity] => 2
+                    [price] => $295.00
+                    [image] => images/weaving.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => bamboo
+                    [name] => Bamboo Handicraft
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/bamboo.jpg
+                )
+
+        )
+
+    [subtotal] => 885
+    [shipping] => 5
+    [tax] => 106.2
+    [total] => 996.2
+    [order_date] => 2025-05-08T06:32:05.493Z
+)
+
+[08-May-2025 08:32:05 Europe/Berlin] Starting database transaction
+[08-May-2025 08:32:05 Europe/Berlin] Binding order parameters
+[08-May-2025 08:32:05 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:120
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(120): mysqli_stmt->bind_param('isssssssddddds', 5, 'akosiandre', 'akosi@gmail.com', '09162352906', 'Duljo Fatima, C...', 'Manila', '1000', 'cod', 885, 5, 106.2, 996.2, '2025-05-08T06:3...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 120
+[08-May-2025 08:32:09 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 08:32:09 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 08:34:22 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 08:34:22 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 08:34:39 Europe/Berlin] Received JSON: {"username":"akosiandre","number":"09162353906","email":"akosi@gmail.com","address":"Duljo Fatima, Cebu City","city":"Manila","postal":"1000"}
+[08-May-2025 08:34:39 Europe/Berlin] Error updating address: Failed to prepare statement: Unknown column 'city' in 'field list'
+[08-May-2025 08:34:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on bool in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\update_user_data.php:100
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\update_user_data.php on line 100
+[08-May-2025 08:35:05 Europe/Berlin] Received JSON: {"username":"akosiandre","number":"09162353906","email":"akosi@gmail.com","address":"Duljo Fatima, Cebu City","city":"Cebu","postal":"6000"}
+[08-May-2025 08:35:05 Europe/Berlin] Error updating address: Failed to prepare statement: Unknown column 'city' in 'field list'
+[08-May-2025 08:35:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on bool in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\update_user_data.php:100
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\update_user_data.php on line 100
+[08-May-2025 08:36:36 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 08:36:36 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 08:37:05 Europe/Berlin] Received JSON: {"username":"akosiandre","number":"09162353906","email":"akosi@gmail.com","address":"Duljo Fatima, Cebu City","city":"Manila","postal":"1000"}
+[08-May-2025 08:39:31 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 08:39:31 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 08:40:14 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 08:40:14 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 08:40:19 Europe/Berlin] Received JSON: {"username":"akosiandre","number":"09162353906","email":"akosi@gmail.com","address":"Duljo Fatima, Cebu City","city":"Manila","postal":"1000"}
+[08-May-2025 08:40:24 Europe/Berlin] === New Order Request ===
+[08-May-2025 08:40:24 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 08:40:24 Europe/Berlin] Raw JSON received: {"username":"akosiandre","number":"09162353906","email":"akosi@gmail.com","address":"Duljo Fatima, Cebu City","city":"Manila","postal":"1000","payment_method":"cod","items":[{"id":"bamboo","name":"Bamboo Handicraft","quantity":1,"price":"$295.00","image":"images/bamboo.jpg"},{"id":"weaving","name":"Weaving Bag","quantity":2,"price":"$295.00","image":"images/weaving.jpg"}],"subtotal":885,"shipping":5,"tax":106.2,"total":996.2,"order_date":"2025-05-08T06:40:24.324Z"}
+[08-May-2025 08:40:24 Europe/Berlin] Decoded data: Array
+(
+    [username] => akosiandre
+    [number] => 09162353906
+    [email] => akosi@gmail.com
+    [address] => Duljo Fatima, Cebu City
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => bamboo
+                    [name] => Bamboo Handicraft
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/bamboo.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => weaving
+                    [name] => Weaving Bag
+                    [quantity] => 2
+                    [price] => $295.00
+                    [image] => images/weaving.jpg
+                )
+
+        )
+
+    [subtotal] => 885
+    [shipping] => 5
+    [tax] => 106.2
+    [total] => 996.2
+    [order_date] => 2025-05-08T06:40:24.324Z
+)
+
+[08-May-2025 08:40:24 Europe/Berlin] Starting database transaction
+[08-May-2025 08:40:24 Europe/Berlin] Binding order parameters
+[08-May-2025 08:40:24 Europe/Berlin] User ID: 5
+[08-May-2025 08:40:24 Europe/Berlin] Order data: Array
+(
+    [username] => akosiandre
+    [number] => 09162353906
+    [email] => akosi@gmail.com
+    [address] => Duljo Fatima, Cebu City
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => bamboo
+                    [name] => Bamboo Handicraft
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/bamboo.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => weaving
+                    [name] => Weaving Bag
+                    [quantity] => 2
+                    [price] => $295.00
+                    [image] => images/weaving.jpg
+                )
+
+        )
+
+    [subtotal] => 885
+    [shipping] => 5
+    [tax] => 106.2
+    [total] => 996.2
+    [order_date] => 2025-05-08T06:40:24.324Z
+)
+
+[08-May-2025 08:40:24 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:123
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(123): mysqli_stmt->bind_param('isssssssddddds', 5, 'akosiandre', 'akosi@gmail.com', '09162353906', 'Duljo Fatima, C...', 'Manila', '1000', 'cod', 885, 5, 106.2, 996.2, '2025-05-08T06:4...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 123
+[08-May-2025 08:44:38 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 08:44:38 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 08:44:41 Europe/Berlin] Received JSON: {"username":"andregwapo","number":"09162353906","email":"allunarkrisclint@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Manila","postal":"1000"}
+[08-May-2025 08:44:55 Europe/Berlin] === New Order Request ===
+[08-May-2025 08:44:55 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 08:44:55 Europe/Berlin] Raw JSON received: {"username":"andregwapo","number":"09162353906","email":"allunarkrisclint@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Manila","postal":"1000","payment_method":"cod","items":[{"id":"weaving","name":"Weaving Bag","quantity":1,"price":"$295.00","image":"images/weaving.jpg"},{"id":"vase","name":"Vase","quantity":1,"price":"$295.00","image":"images/vase.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:44:55.232Z"}
+[08-May-2025 08:44:55 Europe/Berlin] Decoded data: Array
+(
+    [username] => andregwapo
+    [number] => 09162353906
+    [email] => allunarkrisclint@gmail.com
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => weaving
+                    [name] => Weaving Bag
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/weaving.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => vase
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:44:55.232Z
+)
+
+[08-May-2025 08:44:55 Europe/Berlin] Starting database transaction
+[08-May-2025 08:44:55 Europe/Berlin] Binding order parameters
+[08-May-2025 08:44:55 Europe/Berlin] User ID: 2
+[08-May-2025 08:44:55 Europe/Berlin] Order data: Array
+(
+    [username] => andregwapo
+    [number] => 09162353906
+    [email] => allunarkrisclint@gmail.com
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => weaving
+                    [name] => Weaving Bag
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/weaving.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => vase
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:44:55.232Z
+)
+
+[08-May-2025 08:44:55 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:123
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(123): mysqli_stmt->bind_param('isssssssddddds', 2, 'andregwapo', 'allunarkrisclin...', '09162353906', 'M.DELA CONCEPCI...', 'Manila', '1000', 'cod', 590, 5, 70.8, 665.8, '2025-05-08T06:4...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 123
+[08-May-2025 08:48:03 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 08:48:03 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 08:50:44 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 08:50:44 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 08:50:47 Europe/Berlin] Received JSON: {"username":"akosiandre","number":"09162353906","email":"akosi@gmail.com","address":"Duljo Fatima, Cebu City","city":"Manila","postal":"1000"}
+[08-May-2025 08:53:49 Europe/Berlin] Received JSON: {"username":"akosiandre","number":"09162353906","email":"akosi@gmail.com","address":"Duljo Fatima, Cebu City","city":"Manila","postal":"1000"}
+[08-May-2025 08:55:15 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 08:55:15 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 08:55:24 Europe/Berlin] Received JSON: {"username":"akosiandre","number":"09162353906","email":"akosi@gmail.com","address":"Duljo Fatima, Cebu City","city":"Manila","postal":"1000"}
+[08-May-2025 08:55:31 Europe/Berlin] === New Order Request ===
+[08-May-2025 08:55:31 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 08:55:31 Europe/Berlin] Raw JSON received: {"username":"akosiandre","number":"09162353906","email":"akosi@gmail.com","address":"Duljo Fatima, Cebu City","city":"Manila","postal":"1000","payment_method":"cod","items":[{"id":"vase","name":"Vase","quantity":1,"price":"$295.00","image":"images/vase.jpg"},{"id":"bamboo","name":"Bamboo Handicraft","quantity":1,"price":"$295.00","image":"images/bamboo.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T06:55:31.485Z"}
+[08-May-2025 08:55:31 Europe/Berlin] Decoded data: Array
+(
+    [username] => akosiandre
+    [number] => 09162353906
+    [email] => akosi@gmail.com
+    [address] => Duljo Fatima, Cebu City
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => vase
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => bamboo
+                    [name] => Bamboo Handicraft
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/bamboo.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:55:31.485Z
+)
+
+[08-May-2025 08:55:31 Europe/Berlin] Starting database transaction
+[08-May-2025 08:55:31 Europe/Berlin] Binding order parameters
+[08-May-2025 08:55:31 Europe/Berlin] User ID: 5
+[08-May-2025 08:55:31 Europe/Berlin] Order data: Array
+(
+    [username] => akosiandre
+    [number] => 09162353906
+    [email] => akosi@gmail.com
+    [address] => Duljo Fatima, Cebu City
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => vase
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/vase.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => bamboo
+                    [name] => Bamboo Handicraft
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/bamboo.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T06:55:31.485Z
+)
+
+[08-May-2025 08:55:31 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:111
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(111): mysqli_stmt->bind_param('isssssssddddds', 5, 'akosiandre', 'akosi@gmail.com', '09162353906', 'Duljo Fatima, C...', 'Manila', '1000', 'cod', 590, 5, 70.8, 665.8, '2025-05-08 08:5...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 111
+[08-May-2025 09:01:00 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:01:00 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:01:05 Europe/Berlin] Received JSON: {"username":"andregwapo","number":"09162353906","email":"allunarkrisclint@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Manila","postal":"1000"}
+[08-May-2025 09:01:23 Europe/Berlin] === New Order Request ===
+[08-May-2025 09:01:23 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:01:23 Europe/Berlin] Raw JSON received: {"username":"andregwapo","number":"09162353906","email":"allunarkrisclint@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Manila","postal":"1000","payment_method":"cod","items":[{"id":"woodplate","name":"Wood Carved Plate","quantity":1,"price":"$295.00","image":"images/woodplate.jpg"},{"id":"weaving","name":"Weaving Bag","quantity":1,"price":"$295.00","image":"images/weaving.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"order_date":"2025-05-08T07:01:23.886Z"}
+[08-May-2025 09:01:23 Europe/Berlin] Decoded data: Array
+(
+    [username] => andregwapo
+    [number] => 09162353906
+    [email] => allunarkrisclint@gmail.com
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => woodplate
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => weaving
+                    [name] => Weaving Bag
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/weaving.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T07:01:23.886Z
+)
+
+[08-May-2025 09:01:23 Europe/Berlin] Starting database transaction
+[08-May-2025 09:01:23 Europe/Berlin] Binding order parameters
+[08-May-2025 09:01:23 Europe/Berlin] User ID: 2
+[08-May-2025 09:01:23 Europe/Berlin] Order data: Array
+(
+    [username] => andregwapo
+    [number] => 09162353906
+    [email] => allunarkrisclint@gmail.com
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => woodplate
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => weaving
+                    [name] => Weaving Bag
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/weaving.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [order_date] => 2025-05-08T07:01:23.886Z
+)
+
+[08-May-2025 09:01:23 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:111
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(111): mysqli_stmt->bind_param('isssssssddddds', 2, 'andregwapo', 'allunarkrisclin...', '09162353906', 'M.DELA CONCEPCI...', 'Manila', '1000', 'cod', 590, 5, 70.8, 665.8, '2025-05-08 09:0...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 111
+[08-May-2025 09:04:05 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:04:05 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:04:07 Europe/Berlin] Received JSON: {"username":"andregwapo","number":"09162353906","email":"allunarkrisclint@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Manila","postal":"1000"}
+[08-May-2025 09:04:22 Europe/Berlin] === New Order Request ===
+[08-May-2025 09:04:22 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:04:22 Europe/Berlin] Raw JSON received: {"username":"andregwapo","number":"09162353906","email":"allunarkrisclint@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Manila","postal":"1000","payment_method":"cod","items":[{"id":"woodplate","name":"Wood Carved Plate","quantity":2,"price":"$295.00","image":"images/woodplate.jpg"},{"id":"weaving","name":"Weaving Bag","quantity":1,"price":"$295.00","image":"images/weaving.jpg"}],"subtotal":885,"shipping":5,"tax":106.2,"total":996.2,"order_date":"2025-05-08T07:04:22.420Z"}
+[08-May-2025 09:04:22 Europe/Berlin] Decoded data: Array
+(
+    [username] => andregwapo
+    [number] => 09162353906
+    [email] => allunarkrisclint@gmail.com
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => woodplate
+                    [name] => Wood Carved Plate
+                    [quantity] => 2
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => weaving
+                    [name] => Weaving Bag
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/weaving.jpg
+                )
+
+        )
+
+    [subtotal] => 885
+    [shipping] => 5
+    [tax] => 106.2
+    [total] => 996.2
+    [order_date] => 2025-05-08T07:04:22.420Z
+)
+
+[08-May-2025 09:04:22 Europe/Berlin] Starting database transaction
+[08-May-2025 09:04:22 Europe/Berlin] Binding order parameters
+[08-May-2025 09:04:22 Europe/Berlin] User ID: 2
+[08-May-2025 09:04:22 Europe/Berlin] Order data: Array
+(
+    [username] => andregwapo
+    [number] => 09162353906
+    [email] => allunarkrisclint@gmail.com
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Manila
+    [postal] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => woodplate
+                    [name] => Wood Carved Plate
+                    [quantity] => 2
+                    [price] => $295.00
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => weaving
+                    [name] => Weaving Bag
+                    [quantity] => 1
+                    [price] => $295.00
+                    [image] => images/weaving.jpg
+                )
+
+        )
+
+    [subtotal] => 885
+    [shipping] => 5
+    [tax] => 106.2
+    [total] => 996.2
+    [order_date] => 2025-05-08T07:04:22.420Z
+)
+
+[08-May-2025 09:04:22 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:111
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(111): mysqli_stmt->bind_param('isssssssddddds', 2, 'andregwapo', 'allunarkrisclin...', '09162353906', 'M.DELA CONCEPCI...', 'Manila', '1000', 'cod', 885, 5, 106.2, 996.2, '2025-05-08 09:0...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 111
+[08-May-2025 09:06:05 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:06:05 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:08:09 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:08:09 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:08:57 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:08:57 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:09:06 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:09:06 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:09:11 Europe/Berlin] === New Order Request ===
+[08-May-2025 09:09:11 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:09:11 Europe/Berlin] Raw JSON received: {"username":"andregwapo","email":"allunarkrisclint@gmail.com","number":"09162353906","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Manila","postal_code":"1000","payment_method":"cod","items":[{"name":"Wood Carved Plate","quantity":1,"price":295,"image":"images/woodplate.jpg"}],"subtotal":295,"shipping":5,"tax":35.4,"total":335.4,"created_at":"2025-05-08T07:09:11.074Z"}
+[08-May-2025 09:09:11 Europe/Berlin] Decoded data: Array
+(
+    [username] => andregwapo
+    [email] => allunarkrisclint@gmail.com
+    [number] => 09162353906
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Manila
+    [postal_code] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => 295
+                    [image] => images/woodplate.jpg
+                )
+
+        )
+
+    [subtotal] => 295
+    [shipping] => 5
+    [tax] => 35.4
+    [total] => 335.4
+    [created_at] => 2025-05-08T07:09:11.074Z
+)
+
+[08-May-2025 09:09:11 Europe/Berlin] Starting transaction
+[08-May-2025 09:09:11 Europe/Berlin] Preparing to bind order parameters
+[08-May-2025 09:09:11 Europe/Berlin] Order inserted with ID: 1
+[08-May-2025 09:09:11 Europe/Berlin] Processing item: {"name":"Wood Carved Plate","quantity":1,"price":295,"image":"images\/woodplate.jpg"}
+[08-May-2025 09:09:11 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 138
+[08-May-2025 09:09:11 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:147
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(147): mysqli_stmt->bind_param('iisds', 1, 0, 'Wood Carved Pla...', 1, 295, 'images/woodplat...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 147
+[08-May-2025 09:09:18 Europe/Berlin] Received JSON: {"username":"andregwapo","number":"09162353906","email":"allunarkrisclint@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Manila","postal":"1000"}
+[08-May-2025 09:09:22 Europe/Berlin] === New Order Request ===
+[08-May-2025 09:09:22 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:09:22 Europe/Berlin] Raw JSON received: {"username":"andregwapo","email":"allunarkrisclint@gmail.com","number":"09162353906","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Manila","postal_code":"1000","payment_method":"cod","items":[{"name":"Wood Carved Plate","quantity":1,"price":295,"image":"images/woodplate.jpg"}],"subtotal":295,"shipping":5,"tax":35.4,"total":335.4,"created_at":"2025-05-08T07:09:22.501Z"}
+[08-May-2025 09:09:22 Europe/Berlin] Decoded data: Array
+(
+    [username] => andregwapo
+    [email] => allunarkrisclint@gmail.com
+    [number] => 09162353906
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Manila
+    [postal_code] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => 295
+                    [image] => images/woodplate.jpg
+                )
+
+        )
+
+    [subtotal] => 295
+    [shipping] => 5
+    [tax] => 35.4
+    [total] => 335.4
+    [created_at] => 2025-05-08T07:09:22.501Z
+)
+
+[08-May-2025 09:09:22 Europe/Berlin] Starting transaction
+[08-May-2025 09:09:22 Europe/Berlin] Preparing to bind order parameters
+[08-May-2025 09:09:22 Europe/Berlin] Order inserted with ID: 2
+[08-May-2025 09:09:22 Europe/Berlin] Processing item: {"name":"Wood Carved Plate","quantity":1,"price":295,"image":"images\/woodplate.jpg"}
+[08-May-2025 09:09:22 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 138
+[08-May-2025 09:09:22 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:147
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(147): mysqli_stmt->bind_param('iisds', 2, 0, 'Wood Carved Pla...', 1, 295, 'images/woodplat...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 147
+[08-May-2025 09:12:43 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:12:43 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:12:58 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:12:58 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:13:09 Europe/Berlin] === New Order Request ===
+[08-May-2025 09:13:09 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:13:09 Europe/Berlin] Raw JSON received: {"username":"andregwapo","email":"allunarkrisclint@gmail.com","number":"09162353906","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Manila","postal_code":"1000","payment_method":"cod","items":[{"name":"Weaving Bag","quantity":1,"price":295,"image":"images/weaving.jpg"}],"subtotal":295,"shipping":5,"tax":35.4,"total":335.4,"created_at":"2025-05-08T07:13:09.633Z"}
+[08-May-2025 09:13:09 Europe/Berlin] Decoded data: Array
+(
+    [username] => andregwapo
+    [email] => allunarkrisclint@gmail.com
+    [number] => 09162353906
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Manila
+    [postal_code] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Weaving Bag
+                    [quantity] => 1
+                    [price] => 295
+                    [image] => images/weaving.jpg
+                )
+
+        )
+
+    [subtotal] => 295
+    [shipping] => 5
+    [tax] => 35.4
+    [total] => 335.4
+    [created_at] => 2025-05-08T07:13:09.633Z
+)
+
+[08-May-2025 09:13:09 Europe/Berlin] Starting transaction
+[08-May-2025 09:13:09 Europe/Berlin] Preparing to bind order parameters
+[08-May-2025 09:13:09 Europe/Berlin] Order inserted with ID: 3
+[08-May-2025 09:13:09 Europe/Berlin] Processing item: {"name":"Weaving Bag","quantity":1,"price":295,"image":"images\/weaving.jpg"}
+[08-May-2025 09:13:09 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 138
+[08-May-2025 09:13:09 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:147
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(147): mysqli_stmt->bind_param('iisds', 3, 0, 'Weaving Bag', 1, 295, 'images/weaving....')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 147
+[08-May-2025 09:13:17 Europe/Berlin] Received JSON: {"username":"andregwapo","number":"09162353906","email":"allunarkrisclint@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Manila","postal":"1000"}
+[08-May-2025 09:13:31 Europe/Berlin] Received JSON: {"username":"andregwapo","number":"09162353906","email":"allunarkrisclint@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Cebu","postal":"1000"}
+[08-May-2025 09:13:43 Europe/Berlin] === New Order Request ===
+[08-May-2025 09:13:43 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:13:43 Europe/Berlin] Raw JSON received: {"username":"andregwapo","email":"allunarkrisclint@gmail.com","number":"09162353906","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Cebu","postal_code":"1000","payment_method":"cod","items":[{"name":"Weaving Bag","quantity":1,"price":295,"image":"images/weaving.jpg"}],"subtotal":295,"shipping":5,"tax":35.4,"total":335.4,"created_at":"2025-05-08T07:13:43.051Z"}
+[08-May-2025 09:13:43 Europe/Berlin] Decoded data: Array
+(
+    [username] => andregwapo
+    [email] => allunarkrisclint@gmail.com
+    [number] => 09162353906
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Cebu
+    [postal_code] => 1000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Weaving Bag
+                    [quantity] => 1
+                    [price] => 295
+                    [image] => images/weaving.jpg
+                )
+
+        )
+
+    [subtotal] => 295
+    [shipping] => 5
+    [tax] => 35.4
+    [total] => 335.4
+    [created_at] => 2025-05-08T07:13:43.051Z
+)
+
+[08-May-2025 09:13:43 Europe/Berlin] Starting transaction
+[08-May-2025 09:13:43 Europe/Berlin] Preparing to bind order parameters
+[08-May-2025 09:13:43 Europe/Berlin] Order inserted with ID: 4
+[08-May-2025 09:13:43 Europe/Berlin] Processing item: {"name":"Weaving Bag","quantity":1,"price":295,"image":"images\/weaving.jpg"}
+[08-May-2025 09:13:43 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 138
+[08-May-2025 09:13:43 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:147
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(147): mysqli_stmt->bind_param('iisds', 4, 0, 'Weaving Bag', 1, 295, 'images/weaving....')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 147
+[08-May-2025 09:14:45 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:14:45 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:14:49 Europe/Berlin] Raw JSON received: {"username":"andregwapo","number":"09162353906","email":"allunarkrisclint@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Manila","postal":"1000"}
+[08-May-2025 09:14:49 Europe/Berlin] Decoded data: Array
+(
+    [username] => andregwapo
+    [number] => 09162353906
+    [email] => allunarkrisclint@gmail.com
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Manila
+    [postal] => 1000
+)
+
+[08-May-2025 09:14:49 Europe/Berlin] Error updating user data: Failed to prepare statement: Unknown column 'city' in 'field list'
+[08-May-2025 09:14:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on bool in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\update_user_data.php:102
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\update_user_data.php on line 102
+[08-May-2025 09:14:57 Europe/Berlin] Raw JSON received: {"username":"andregwapo","number":"09162353906","email":"allunarkrisclint@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Manila","postal":"1000"}
+[08-May-2025 09:14:57 Europe/Berlin] Decoded data: Array
+(
+    [username] => andregwapo
+    [number] => 09162353906
+    [email] => allunarkrisclint@gmail.com
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Manila
+    [postal] => 1000
+)
+
+[08-May-2025 09:14:57 Europe/Berlin] Error updating user data: Failed to prepare statement: Unknown column 'city' in 'field list'
+[08-May-2025 09:14:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on bool in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\update_user_data.php:102
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\update_user_data.php on line 102
+[08-May-2025 09:15:04 Europe/Berlin] Raw JSON received: {"username":"andregwapo","number":"09162353906","email":"allunarkrisclint@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Cebu","postal":"1000"}
+[08-May-2025 09:15:04 Europe/Berlin] Decoded data: Array
+(
+    [username] => andregwapo
+    [number] => 09162353906
+    [email] => allunarkrisclint@gmail.com
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Cebu
+    [postal] => 1000
+)
+
+[08-May-2025 09:15:04 Europe/Berlin] Error updating user data: Failed to prepare statement: Unknown column 'city' in 'field list'
+[08-May-2025 09:15:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function close() on bool in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\update_user_data.php:102
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\update_user_data.php on line 102
+[08-May-2025 09:18:01 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:18:01 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:27:38 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:27:38 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:29:58 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:29:58 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:33:42 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:33:42 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:35:28 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:35:28 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:35:31 Europe/Berlin] Raw JSON received: {"username":"andregwapo","number":"09162353906","email":"allunarkrisclint@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Cebu","postal_code":"6000"}
+[08-May-2025 09:35:31 Europe/Berlin] Decoded data: Array
+(
+    [username] => andregwapo
+    [number] => 09162353906
+    [email] => allunarkrisclint@gmail.com
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Cebu
+    [postal_code] => 6000
+)
+
+[08-May-2025 09:35:31 Europe/Berlin] Preparing to bind parameters
+[08-May-2025 09:40:56 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:40:56 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:41:07 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:41:07 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:42:19 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:42:19 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:42:30 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:42:30 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:43:21 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:43:21 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:43:22 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:43:22 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:43:23 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:43:23 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:43:23 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:43:23 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:43:23 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:43:23 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:43:23 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:43:23 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:43:23 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:43:23 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:43:23 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:43:23 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:43:41 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:43:41 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:44:05 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:44:05 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:44:21 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:44:21 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:44:31 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:44:31 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:44:40 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:44:40 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:44:56 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:44:56 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:44:58 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:44:58 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:45:10 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:45:10 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:45:22 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:45:22 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:45:34 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:45:34 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:46:13 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:46:13 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:47:27 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:47:27 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:47:28 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:47:28 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:47:32 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:47:32 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:48:03 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:48:03 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:29 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:29 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:29 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:29 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:30 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:30 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:30 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:30 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:30 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:30 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:31 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:31 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:31 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:31 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:31 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:31 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:32 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:32 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:32 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:32 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:33 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:33 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:33 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:33 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:33 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:33 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:33 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:33 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:34 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:49:34 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:49:44 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:49:44 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:50:48 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:50:48 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:50:55 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:50:55 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:52:09 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:52:09 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:52:15 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:52:15 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:54:06 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:54:06 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:54:12 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:54:12 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:54:19 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:54:19 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:54:26 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:54:26 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:54:43 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:54:43 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:54:50 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:54:50 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:54:56 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:54:56 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:55:32 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:55:32 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:56:41 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:56:41 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:56:44 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:56:44 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:56:53 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[08-May-2025 09:56:53 Europe/Berlin] User is logged in with ID: 5
+[08-May-2025 09:57:00 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:57:00 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:57:02 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:57:02 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:57:04 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:57:04 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:57:11 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:57:11 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:59:54 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:59:54 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 09:59:55 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 09:59:55 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:01:37 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:01:37 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:01:39 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:01:39 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:01:45 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:01:45 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:01:54 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:01:54 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:02:10 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:02:10 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:02:22 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:02:22 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:02:24 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:02:24 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:02:25 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:02:25 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:02:27 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:02:27 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:02:28 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:02:28 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:02:29 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:02:29 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:02:32 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:02:32 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:02:34 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:02:34 Europe/Berlin] User is logged in with ID: 2
+[08-May-2025 10:02:45 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[08-May-2025 10:02:45 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 09:50:41 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 09:50:41 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 09:50:47 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 09:50:47 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 09:51:07 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 09:51:07 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 09:51:41 Europe/Berlin] === New Order Request ===
+[09-May-2025 09:51:41 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 09:51:41 Europe/Berlin] Raw JSON received: {"username":"andregwapo","email":"allunarkrisclint@gmail.com","number":"09162353906","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Cebu","postal_code":"6000","payment_method":"cod","items":[{"id":4,"quantity":1,"price":295,"image":"images/bamboo.jpg"},{"id":3,"quantity":1,"price":295,"image":"images/weaving.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"created_at":"2025-05-09T07:51:41.791Z"}
+[09-May-2025 09:51:41 Europe/Berlin] Decoded data: Array
+(
+    [username] => andregwapo
+    [email] => allunarkrisclint@gmail.com
+    [number] => 09162353906
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Cebu
+    [postal_code] => 6000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [quantity] => 1
+                    [price] => 295
+                    [image] => images/bamboo.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [quantity] => 1
+                    [price] => 295
+                    [image] => images/weaving.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [created_at] => 2025-05-09T07:51:41.791Z
+)
+
+[09-May-2025 09:51:41 Europe/Berlin] Starting transaction
+[09-May-2025 09:51:41 Europe/Berlin] Preparing to bind order parameters
+[09-May-2025 09:51:41 Europe/Berlin] Order inserted with ID: 5
+[09-May-2025 09:51:41 Europe/Berlin] Processing item: {"id":4,"quantity":1,"price":295,"image":"images\/bamboo.jpg"}
+[09-May-2025 09:51:41 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:147
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(147): mysqli_stmt->bind_param('iisds', 5, 4, NULL, 1, 295, 'images/bamboo.j...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 147
+[09-May-2025 09:57:57 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 09:57:57 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 09:58:08 Europe/Berlin] === New Order Request ===
+[09-May-2025 09:58:08 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 09:58:08 Europe/Berlin] Raw JSON received: {"username":"andregwapo","email":"allunarkrisclint@gmail.com","number":"09162353906","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Cebu","postal_code":"6000","payment_method":"cod","items":[{"id":4,"quantity":1,"price":295,"image":"images/bamboo.jpg"},{"id":3,"quantity":1,"price":295,"image":"images/weaving.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8,"created_at":"2025-05-09T07:58:08.556Z"}
+[09-May-2025 09:58:08 Europe/Berlin] Decoded data: Array
+(
+    [username] => andregwapo
+    [email] => allunarkrisclint@gmail.com
+    [number] => 09162353906
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Cebu
+    [postal_code] => 6000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [quantity] => 1
+                    [price] => 295
+                    [image] => images/bamboo.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [quantity] => 1
+                    [price] => 295
+                    [image] => images/weaving.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+    [created_at] => 2025-05-09T07:58:08.556Z
+)
+
+[09-May-2025 09:58:08 Europe/Berlin] Starting transaction
+[09-May-2025 09:58:08 Europe/Berlin] Preparing to bind order parameters
+[09-May-2025 09:58:08 Europe/Berlin] Order inserted with ID: 6
+[09-May-2025 09:58:08 Europe/Berlin] Processing item: {"id":4,"quantity":1,"price":295,"image":"images\/bamboo.jpg"}
+[09-May-2025 09:58:08 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:147
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(147): mysqli_stmt->bind_param('iisds', 6, 4, NULL, 1, 295, 'images/bamboo.j...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 147
+[09-May-2025 09:59:17 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 09:59:17 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 09:59:22 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 09:59:22 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 09:59:23 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 09:59:23 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 09:59:29 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 09:59:29 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 09:59:31 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 09:59:31 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 09:59:41 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 09:59:41 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 09:59:43 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 09:59:43 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:00:14 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:00:14 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:00:14 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:00:14 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:01:39 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:01:39 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:01:43 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:01:43 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:01:44 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:01:44 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:01:52 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:01:52 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:02:01 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:02:01 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:02:05 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:02:05 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:02:05 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:02:05 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:03:49 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:03:49 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:03:53 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:03:53 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:03:53 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:03:53 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:03:59 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:03:59 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:04:01 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:04:01 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:04:04 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:04:04 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:04:04 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:04:04 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:06:07 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:06:07 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:06:12 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:06:12 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:06:16 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 2
+    [username] => andregwapo
+)
+
+[09-May-2025 10:06:16 Europe/Berlin] User is logged in with ID: 2
+[09-May-2025 10:06:24 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:06:24 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:06:26 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:06:26 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:06:41 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:06:41 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:06:49 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:06:49 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:07:06 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:07:06 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:07:17 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:07:17 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:08:56 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:08:56 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:08:57 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:08:57 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:09:03 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:09:03 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:09:13 Europe/Berlin] === New Order Request ===
+[09-May-2025 10:09:13 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:09:13 Europe/Berlin] Raw JSON received: {"username":"akosiandre","email":"akosi@gmail.com","number":"09162353906","address":"Duljo Fatima, Cebu City","city":"Cebu","postal_code":"6000","payment_method":"cod","items":[{"id":8,"product_id":"bamboo","name":"Bamboo Handicraft","quantity":1,"price":295,"image":"images/bamboo.jpg"},{"id":7,"product_id":"embroid","name":"Embroidered Wallet","quantity":1,"price":295,"image":"images/embroid.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8}
+[09-May-2025 10:09:13 Europe/Berlin] Decoded data: Array
+(
+    [username] => akosiandre
+    [email] => akosi@gmail.com
+    [number] => 09162353906
+    [address] => Duljo Fatima, Cebu City
+    [city] => Cebu
+    [postal_code] => 6000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [product_id] => bamboo
+                    [name] => Bamboo Handicraft
+                    [quantity] => 1
+                    [price] => 295
+                    [image] => images/bamboo.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => 7
+                    [product_id] => embroid
+                    [name] => Embroidered Wallet
+                    [quantity] => 1
+                    [price] => 295
+                    [image] => images/embroid.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+)
+
+[09-May-2025 10:09:13 Europe/Berlin] Starting transaction
+[09-May-2025 10:09:13 Europe/Berlin] Preparing to bind order parameters
+[09-May-2025 10:09:13 Europe/Berlin] Order inserted with ID: 7
+[09-May-2025 10:09:13 Europe/Berlin] Processing item: {"id":8,"product_id":"bamboo","name":"Bamboo Handicraft","quantity":1,"price":295,"image":"images\/bamboo.jpg"}
+[09-May-2025 10:09:13 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:147
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(147): mysqli_stmt->bind_param('iisds', 7, 8, 'Bamboo Handicra...', 1, 295, 'images/bamboo.j...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 147
+[09-May-2025 10:10:49 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:10:49 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:10:53 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:10:53 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:10:55 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:10:55 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:13:57 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:13:57 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:14:47 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:14:47 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:14:54 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:14:54 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:15:02 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:15:02 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:15:09 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:15:09 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:15:16 Europe/Berlin] === New Order Request ===
+[09-May-2025 10:15:16 Europe/Berlin] Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:15:16 Europe/Berlin] Raw JSON received: {"username":"akosiandre","email":"akosi@gmail.com","number":"09162353906","address":"Duljo Fatima, Cebu City","city":"Cebu","postal_code":"6000","payment_method":"cod","items":[{"id":10,"product_id":"woodplate","name":"Wood Carved Plate","quantity":1,"price":295,"image":"images/woodplate.jpg"},{"id":9,"product_id":"vase","name":"Vase","quantity":1,"price":295,"image":"images/vase.jpg"}],"subtotal":590,"shipping":5,"tax":70.8,"total":665.8}
+[09-May-2025 10:15:16 Europe/Berlin] Decoded data: Array
+(
+    [username] => akosiandre
+    [email] => akosi@gmail.com
+    [number] => 09162353906
+    [address] => Duljo Fatima, Cebu City
+    [city] => Cebu
+    [postal_code] => 6000
+    [payment_method] => cod
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 10
+                    [product_id] => woodplate
+                    [name] => Wood Carved Plate
+                    [quantity] => 1
+                    [price] => 295
+                    [image] => images/woodplate.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => 9
+                    [product_id] => vase
+                    [name] => Vase
+                    [quantity] => 1
+                    [price] => 295
+                    [image] => images/vase.jpg
+                )
+
+        )
+
+    [subtotal] => 590
+    [shipping] => 5
+    [tax] => 70.8
+    [total] => 665.8
+)
+
+[09-May-2025 10:15:16 Europe/Berlin] Starting transaction
+[09-May-2025 10:15:16 Europe/Berlin] Preparing to bind order parameters
+[09-May-2025 10:15:16 Europe/Berlin] Order inserted with ID: 8
+[09-May-2025 10:15:16 Europe/Berlin] Processing item: {"id":10,"product_id":"woodplate","name":"Wood Carved Plate","quantity":1,"price":295,"image":"images\/woodplate.jpg"}
+[09-May-2025 10:15:16 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php:147
+Stack trace:
+#0 C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php(147): mysqli_stmt->bind_param('iisds', 8, 10, 'Wood Carved Pla...', 1, 295, 'images/woodplat...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Cabanday_Midterm_webApp\System\php\process_order.php on line 147
+[09-May-2025 10:19:26 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:19:26 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:52:01 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:52:01 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:52:08 Europe/Berlin] Raw JSON received: {"username":"akosiandre","number":"09162353906","email":"akosi@gmail.com","address":"Duljo Fatima, Cebu City","city":"Cebu","postal_code":"6000"}
+[09-May-2025 10:52:08 Europe/Berlin] Decoded data: Array
+(
+    [username] => akosiandre
+    [number] => 09162353906
+    [email] => akosi@gmail.com
+    [address] => Duljo Fatima, Cebu City
+    [city] => Cebu
+    [postal_code] => 6000
+)
+
+[09-May-2025 10:52:08 Europe/Berlin] Preparing to bind parameters
+[09-May-2025 10:54:13 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:54:13 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:54:20 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:54:20 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:54:24 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:54:24 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:56:09 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:56:09 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:56:11 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:56:11 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:56:14 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 5
+    [username] => akosiandre
+)
+
+[09-May-2025 10:56:14 Europe/Berlin] User is logged in with ID: 5
+[09-May-2025 10:56:28 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:56:28 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 10:56:35 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:56:35 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 10:56:40 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:56:40 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 10:58:42 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:58:42 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 10:58:44 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:58:44 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 10:58:49 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:58:49 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 10:58:52 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:58:52 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 10:59:11 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:59:11 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 10:59:12 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:59:12 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 10:59:14 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:59:14 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 10:59:19 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:59:20 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 10:59:23 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:59:23 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 10:59:52 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:59:52 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 10:59:55 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 10:59:55 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:00:02 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:00:02 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:00:06 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:00:06 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:00:22 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:00:22 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:00:24 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:00:24 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:00:31 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:00:31 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:00:34 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:00:34 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:00:44 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:00:44 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:00:49 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:00:49 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:00:52 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:00:52 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:00:57 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:00:57 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:01:06 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:01:06 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:01:11 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:01:11 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:01:14 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:01:14 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:01:17 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:01:17 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:23:19 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:23:19 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:23:28 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:23:28 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:23:40 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:23:40 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:24:17 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:24:17 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:24:20 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:24:20 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:24:25 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:24:25 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:25:35 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:25:35 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:25:39 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:25:39 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:27:19 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:27:19 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:27:22 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:27:22 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:27:28 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:27:28 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:29:13 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:29:13 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:29:21 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:29:21 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:29:38 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:29:38 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:30:17 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:30:17 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:30:20 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:30:20 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 11:36:00 Europe/Berlin] Cart operation error: Failed to add item to cart
+[09-May-2025 11:36:04 Europe/Berlin] Cart operation error: Failed to add item to cart
+[09-May-2025 11:36:07 Europe/Berlin] Cart operation error: Failed to add item to cart
+[09-May-2025 11:36:20 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 4
+    [username] => mark
+)
+
+[09-May-2025 11:36:20 Europe/Berlin] User is logged in with ID: 4
+[09-May-2025 15:58:10 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 15:58:10 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 15:58:23 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 15:58:23 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 15:58:57 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 15:58:57 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 15:59:01 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 15:59:01 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:00:29 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:00:29 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:00:36 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:00:36 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:00:39 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:00:39 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:01:37 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:01:37 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:01:41 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:01:41 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:02:05 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:02:05 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:02:06 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:02:06 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:02:10 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:02:10 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:02:13 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:02:13 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:02:45 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:02:45 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:02:48 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:02:48 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:05:35 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:05:35 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:06:16 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:06:16 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:06:24 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:06:24 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:06:27 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:06:27 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:08:03 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:08:03 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:08:04 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:08:04 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:08:19 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:08:19 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:08:28 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:08:28 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:09:00 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:09:00 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:09:04 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:09:04 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:09:32 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:09:32 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:09:37 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:09:37 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:11:17 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:11:17 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:11:22 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:11:22 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:11:45 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:11:45 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:11:45 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:11:45 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:11:49 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:11:49 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:11:49 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:11:49 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:12:10 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:12:10 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:12:13 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:12:13 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:12:15 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 1
+    [username] => andre
+)
+
+[09-May-2025 16:12:15 Europe/Berlin] User is logged in with ID: 1
+[09-May-2025 16:22:43 Europe/Berlin] Cart operation error: Failed to add item to cart
+[05-Jul-2025 01:53:14 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 6
+    [username] => franz
+)
+
+[05-Jul-2025 01:53:14 Europe/Berlin] User is logged in with ID: 6
+[05-Jul-2025 01:53:21 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 6
+    [username] => franz
+)
+
+[05-Jul-2025 01:53:21 Europe/Berlin] User is logged in with ID: 6
+[05-Jul-2025 01:54:06 Europe/Berlin] Raw JSON received: {"username":"franz","number":"09123784232","email":"franz@gmail.com","address":"M.DELA CONCEPCION ST. PASIL, CEBU CITY","city":"Select Cities","postal_code":"1000"}
+[05-Jul-2025 01:54:06 Europe/Berlin] Decoded data: Array
+(
+    [username] => franz
+    [number] => 09123784232
+    [email] => franz@gmail.com
+    [address] => M.DELA CONCEPCION ST. PASIL, CEBU CITY
+    [city] => Select Cities
+    [postal_code] => 1000
+)
+
+[05-Jul-2025 01:54:06 Europe/Berlin] Preparing to bind parameters
+[05-Jul-2025 01:55:13 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 6
+    [username] => franz
+)
+
+[05-Jul-2025 01:55:13 Europe/Berlin] User is logged in with ID: 6
+[05-Jul-2025 01:55:23 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 6
+    [username] => franz
+)
+
+[05-Jul-2025 01:55:23 Europe/Berlin] User is logged in with ID: 6
+[05-Jul-2025 01:55:29 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 6
+    [username] => franz
+)
+
+[05-Jul-2025 01:55:29 Europe/Berlin] User is logged in with ID: 6
+[05-Jul-2025 01:57:41 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 6
+    [username] => franz
+)
+
+[05-Jul-2025 01:57:41 Europe/Berlin] User is logged in with ID: 6
+[05-Jul-2025 01:57:47 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 6
+    [username] => franz
+)
+
+[05-Jul-2025 01:57:47 Europe/Berlin] User is logged in with ID: 6
+[05-Jul-2025 01:58:18 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 6
+    [username] => franz
+)
+
+[05-Jul-2025 01:58:18 Europe/Berlin] User is logged in with ID: 6
+[05-Jul-2025 01:58:32 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 6
+    [username] => franz
+)
+
+[05-Jul-2025 01:58:32 Europe/Berlin] User is logged in with ID: 6
+[05-Jul-2025 01:58:41 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 6
+    [username] => franz
+)
+
+[05-Jul-2025 01:58:41 Europe/Berlin] User is logged in with ID: 6
+[05-Jul-2025 01:59:05 Europe/Berlin] Checking login status. Session contents: Array
+(
+    [user_id] => 6
+    [username] => franz
+)
+
+[05-Jul-2025 01:59:05 Europe/Berlin] User is logged in with ID: 6

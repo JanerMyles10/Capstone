@@ -1,0 +1,373 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Top Bar Styling */
+.top-bar {
+    background: #9f0c0c;
+    text-align: center;
+    padding: 8px 0;
+    color: white;
+    font-size: 16px;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 100px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo Styling */
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 0;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-grow: 1;
+    max-width: 100%;
+    margin-left: 20%;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar nav a:hover {
+    color: #9f0c0c;
+}
+
+/* Account info styling */
+.account-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    z-index: 100;
+}
+
+.account-info a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.profile-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-button {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.profile-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.profile-dropdown:hover .profile-content {
+    display: block;
+}
+
+.profile-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-content a:hover {
+    background-color: #f5f5f5;
+}
+
+.profile-content .section-title {
+    color: #9f0c0c;
+    font-weight: bold;
+    padding: 12px 16px;
+    background-color: #f8f8f8;
+}
+
+.settings-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.settings-button {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.settings-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.settings-dropdown:hover .settings-content {
+    display: block;
+}
+
+.settings-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+
+.settings-content a:hover {
+    background-color: #f5f5f5;
+}
+
+.logout-button {
+    color: #9f0c0c !important;
+    font-weight: bold;
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+/* Filters Section */
+.filters {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+.filters button,
+.filters select {
+    margin: 0;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.filters button {
+    background-color: #9f0c0c;
+    color: white;
+}
+
+.filters button:hover {
+    background-color: darkred;
+}
+
+/* Product Grid Styling */
+.product-grid {
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+    padding: 40px 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.3s ease;
+    width: 250px;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.product p {
+    color: #9f0c0c;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Ratings Section */
+.ratings {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f8f8f8;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Shop Header */
+.shop-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 20px 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.shop-header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #9f0c0c;
+}
+
+.search-bar {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 12px 20px;
+    background-color: #9f0c0c;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: darkred;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .account-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .product-grid {
+        flex-direction: column;
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+
+    .filters button,
+    .filters select {
+        width: 100%;
+    }
+}
+
+.cart-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    position: relative;
+}
+
+.cart-count {
+    background: #e74c3c;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+}
+
+.add-to-cart {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background: #27ae60;
+}

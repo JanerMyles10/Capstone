@@ -1,0 +1,109 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f0f2f5, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* Heading */
+.dashboard-container h2 {
+  font-size: 2.2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Card Grid Layout */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Individual Card Styling */
+.card {
+  background: linear-gradient(to top left, #e0f7fa, #ffffff);
+  border-left: 6px solid #00bcd4;
+  border-radius: 15px;
+  padding: 25px 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  cursor: default;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Headings */
+.card h3 {
+  font-size: 1.3rem;
+  color: #00796b;
+  margin-bottom: 10px;
+}
+
+/* Optional content placeholder */
+.card p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* Optional: full height clickable card */
+.card {
+  position: relative;
+}
+
+/* Mobile Responsive */
+@media (max-width: 500px) {
+  .dashboard-container {
+    padding: 25px 15px;
+  }
+
+  .dashboard-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .card {
+    padding: 20px 15px;
+  }
+
+  .card h3 {
+    font-size: 1.1rem;
+  }
+
+  .card p {
+    font-size: 1.4rem;
+  }
+}

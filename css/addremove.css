@@ -1,0 +1,81 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.dashboard {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px 30px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Grid layout for cards */
+.card {
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #222;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+/* Status-Specific Styles */
+.unpaid {
+  background: linear-gradient(to right, #ffcccc, #ffe6e6);
+  border-left: 6px solid #ff4d4d;
+}
+
+.process-shipment {
+  background: linear-gradient(to right, #cce5ff, #e6f2ff);
+  border-left: 6px solid #3399ff;
+}
+
+.processed {
+  background: linear-gradient(to right, #ccffe6, #e6fff2);
+  border-left: 6px solid #33cc99;
+}
+
+.cancellation {
+  background: linear-gradient(to right, #fff3cd, #fff8e1);
+  border-left: 6px solid #ffc107;
+}
+
+.refund {
+  background: linear-gradient(to right, #ffe6f0, #fff0f5);
+  border-left: 6px solid #e83e8c;
+}
+
+.sold {
+  background: linear-gradient(to right, #d4edda, #e8f5e9);
+  border-left: 6px solid #28a745;
+}

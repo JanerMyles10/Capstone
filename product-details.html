@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="css/product-details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Breadcrumb Navigation -->
+        <div class="breadcrumb">
+            <a href="homepage.html">Home</a> &gt; 
+            <a href="#">Handicrafts</a> &gt; 
+            <span id="product-category"></span>
+        </div>
+
+        <div class="product-details">
+            <!-- Left Column: Product Images -->
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img id="main-product-image" src="" alt="Product Image">
+                </div>
+                <div class="thumbnail-list">
+                    <!-- Thumbnails will be added dynamically -->
+                </div>
+            </div>
+            
+            <!-- Right Column: Product Info -->
+            <div class="product-info">
+                <h1 id="product-name"></h1>
+                <div class="rating">
+                    <div class="stars"></div>
+                    <span id="product-rating"></span>
+                    <span class="review-count">(0 reviews)</span>
+                </div>
+                
+                <div class="price-section">
+                    <div class="current-price" id="product-price"></div>
+                    <div class="original-price" id="original-price"></div>
+                    <div class="discount-badge" id="discount-badge"></div>
+                </div>
+
+                <div class="product-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="sold-count">0 sold</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-eye"></i>
+                        <span id="view-count">0 views</span>
+                    </div>
+                </div>
+
+                <div class="product-variants">
+                    <h3>Variants</h3>
+                    <div class="variant-options" id="variant-options">
+                        <!-- Variants will be added dynamically -->
+                    </div>
+                </div>
+
+                <div class="quantity-section">
+                    <h3>Quantity</h3>
+                    <div class="quantity-control">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" id="quantity" value="1" min="1">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                    <span class="stock-info" id="stock-info"></span>
+                </div>
+
+                <div class="shipping-info">
+                    <h3>Shipping</h3>
+                    <div class="shipping-details">
+                        <i class="fas fa-truck"></i>
+                        <span>Free shipping for orders above $50</span>
+                    </div>
+                    <div class="delivery-time">
+                        <i class="fas fa-clock"></i>
+                        <span>Estimated delivery: 3-5 days</span>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="buy-now"><i class="fas fa-bolt"></i> Buy Now</button>
+                    <button class="add-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    <button class="add-fav"><i class="far fa-heart"></i> Add to Favorites</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shop Information -->
+        <div class="shop-section">
+            <div class="shop-info">
+                <img src="images/shop-logo.jpg" alt="Shop Logo" class="shop-logo">
+                <div class="shop-details">
+                    <h3>Artisan Crafts Shop</h3>
+                    <div class="shop-rating">
+                        <div class="stars"></div>
+                        <span>4.8/5.0</span>
+                    </div>
+                    <div class="shop-stats">
+                        <span>Response Rate: 98%</span>
+                        <span>Response Time: within 1 hour</span>
+                    </div>
+                </div>
+                <button class="follow-shop">Follow Shop</button>
+            </div>
+        </div>
+
+        <!-- Product Details Tabs -->
+        <div class="product-tabs">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="description">Description</button>
+                <button class="tab-btn" data-tab="specifications">Specifications</button>
+                <button class="tab-btn" data-tab="reviews">Reviews</button>
+            </div>
+
+            <div class="tab-content">
+                <!-- Description Tab -->
+                <div class="tab-pane active" id="description">
+                    <div class="product-description" id="product-description"></div>
+                    <div class="product-images">
+                        <!-- Additional product images will be added here -->
+                    </div>
+                </div>
+
+                <!-- Specifications Tab -->
+                <div class="tab-pane" id="specifications">
+                    <table class="specs-table">
+                        <tr>
+                            <th>Material</th>
+                            <td id="spec-material"></td>
+                        </tr>
+                        <tr>
+                            <th>Dimensions</th>
+                            <td id="spec-dimensions"></td>
+                        </tr>
+                        <tr>
+                            <th>Weight</th>
+                            <td id="spec-weight"></td>
+                        </tr>
+                        <tr>
+                            <th>Origin</th>
+                            <td id="product-origin"></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- Reviews Tab -->
+                <div class="tab-pane" id="reviews">
+                    <div class="reviews-summary">
+                        <div class="overall-rating">
+                            <h3>Overall Rating</h3>
+                            <div class="rating-number" id="overall-rating"></div>
+                            <div class="stars"></div>
+                        </div>
+                        <div class="rating-breakdown">
+                            <!-- Rating breakdown will be added dynamically -->
+                        </div>
+                    </div>
+
+                    <div class="write-review">
+                        <h3>Write a Review</h3>
+                        <form id="review-form">
+                            <div class="star-rating">
+                                <span data-rating="1">☆</span>
+                                <span data-rating="2">☆</span>
+                                <span data-rating="3">☆</span>
+                                <span data-rating="4">☆</span>
+                                <span data-rating="5">☆</span>
+                            </div>
+                            <textarea placeholder="Write your review here..." required></textarea>
+                            <button type="submit">Submit Review</button>
+                        </form>
+                    </div>
+
+                    <div id="reviews-list">
+                        <!-- Reviews will be dynamically added here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Related Products -->
+        <div class="related-products">
+            <h2>You May Also Like</h2>
+            <div class="products-grid" id="related-products">
+                <!-- Related products will be added dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/product-details.js"></script>
+</body>
+</html> 
