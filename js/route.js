@@ -3,13 +3,14 @@ function loadPage(page) {
 
   mainContent.classList.add('fade-out');
 
- 
   setTimeout(() => {
     fetch(page)
-      .then(response => response.text())
+      .then(response => {
+        if (!response.ok) throw new Error("Page not found");
+        return response.text();
+      })
       .then(data => {
         mainContent.innerHTML = data;
-
         mainContent.classList.remove('fade-out');
       })
       .catch(error => {
@@ -17,5 +18,5 @@ function loadPage(page) {
         mainContent.classList.remove('fade-out');
         console.error('Error:', error);
       });
-  }, 150); 
+  }, 150);
 }

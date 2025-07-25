@@ -8,14 +8,19 @@
 <body>
   <div class="container">
     <div class="sidebar">
-      <a href="#" onclick="loadPage('html/adminhome.html')">Home</a>
-      <a href="#" onclick="loadPage('html/orders.html')">Orders</a>
-      <a href="#" onclick="loadPage('html/seller.html')">Seller</a>
-      <a href="#" onclick="loadPage('html/user.html')">User</a>
+      <a href="#" onclick="loadPage('route/adminhome.html')">Home</a>
+      <a href="#" onclick="loadPage('route/orders.html')">Orders</a>
+      <a href="#" onclick="loadPage('route/seller.html')">Seller</a>
+      <a href="#" onclick="loadPage('route/user.html')">User</a>
+      <a href="#" onclick="loadPage('route/user.html')">User</a>
       <a href="homepage.html" onclick="loadPage('homepage.html')">Logout</a>
     </div>
 
-    <main class="main" id="main-content"></main>
+    <main class="main" id="main-content">
+      <div class="card">
+        <h3>Welcome Admin</h3>
+      </div>
+    </main>
   <script src="js/route.js"></script>
 </body>
 </html>
