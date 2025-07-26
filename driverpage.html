@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Driver Page</title>
+  <link rel="stylesheet" href="css/drivepage.css" />
+</head>
+<body>
+  <div class="container">
+    <nav class="sidebar">
+      <h2>Driver Panel</h2>
+      <ul>
+        <li onclick="showSection('queueries')">Accept / Deny Queueries</li>
+        <li onclick="showSection('pickup')">View Pickup Requests</li>
+        <li onclick="showSection('delivery')">View Delivery Status</li>
+        <li onclick="showSection('update')">Update Parcel Status</li>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <!-- Accept / Deny Queueries -->
+      <section id="queueries" class="section">
+        <h2>Accept / Deny Queueries</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Request ID</th>
+              <th>Sender</th>
+              <th>Location</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Q001</td>
+              <td>John Doe</td>
+              <td>City A</td>
+              <td>
+                <button class="btn-accept">Accept</button>
+                <button class="btn-deny">Deny</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- View Pickup Requests -->
+      <section id="pickup" class="section hidden">
+        <h2>Pickup Requests</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Parcel ID</th>
+              <th>Sender</th>
+              <th>Pickup Address</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>P001</td>
+              <td>Anna Smith</td>
+              <td>Blk 5, Lot 23, Townville</td>
+              <td>2:00 PM</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- View Delivery Status -->
+      <section id="delivery" class="section hidden">
+        <h2>Delivery Status</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Parcel ID</th>
+              <th>Receiver</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>P005</td>
+              <td>Maria Lopez</td>
+              <td>In Transit</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Update Parcel Status -->
+      <section id="update" class="section hidden">
+        <h2>Update Parcel Status</h2>
+        <form>
+          <label for="parcel-id">Parcel ID:</label><br>
+          <input type="text" id="parcel-id" required><br><br>
+
+          <label for="status">Status:</label><br>
+          <select id="status" required>
+            <option value="">-- Select Status --</option>
+            <option value="picked-up">Picked Up</option>
+            <option value="in-transit">In Transit</option>
+            <option value="delivered">Delivered</option>
+          </select><br><br>
+
+          <button type="submit" class="btn-update">Update Status</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    function showSection(id) {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(sec => sec.classList.add('hidden'));
+      document.getElementById(id).classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>

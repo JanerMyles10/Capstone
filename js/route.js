@@ -4,7 +4,7 @@ function loadPage(page) {
   mainContent.classList.add('fade-out');
 
   setTimeout(() => {
-    fetch(page)
+    fetch(page + '?t=' + new Date().getTime())  
       .then(response => {
         if (!response.ok) throw new Error("Page not found");
         return response.text();
